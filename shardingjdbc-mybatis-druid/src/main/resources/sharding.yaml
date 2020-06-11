@@ -1,3 +1,6 @@
+#配置文档
+#https://shardingsphere.apache.org/document/current/cn/user-manual/shardingsphere-jdbc/configuration/config-spring-boot/
+
 spring:
   shardingsphere:
     datasource:

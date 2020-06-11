@@ -28,6 +28,7 @@
         </dependency>
 
         <!-- durid -->
+        <!-- 和shardingjdbc 的starter一起时不能用druid的starter -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>

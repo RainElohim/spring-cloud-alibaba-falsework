@@ -1,3 +1,6 @@
+#配置文档
+#https://shardingsphere.apache.org/document/current/cn/user-manual/shardingsphere-jdbc/configuration/config-spring-boot/
+
 spring:
   shardingsphere:
     datasource:
@@ -62,8 +65,8 @@ spring:
             column: id
             type: SNOWFLAKE
           table-strategy:
-            none:
+            none:  #不分表
           database-strategy:
-            none:
+            none:  #不分库
     props:
       sql.show: true
